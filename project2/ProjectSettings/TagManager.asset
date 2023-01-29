@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ItemPickup
+  - Table
+  - Chair
+  - TV
+  - Coffee
   layers:
   - Default
   - TransparentFX
