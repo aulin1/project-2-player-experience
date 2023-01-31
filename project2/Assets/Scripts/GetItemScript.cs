@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class GetItemScript : MonoBehaviour
 {
-    public string tag;
+    public string item_tag;
     public GameObject[] rewards;
     private GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
-        rewards = GameObject.FindGameObjectsWithTag(tag);
+        rewards = GameObject.FindGameObjectsWithTag(item_tag);
         for(int i = 0; i < rewards.Length; i++){
             rewards[i].SetActive(false);
         }
